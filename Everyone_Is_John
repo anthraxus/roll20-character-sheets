@@ -1,0 +1,44 @@
+<div class="sheet-container">
+<div class="sheet-half">
+    <div class="sheet-section-header">Willpower</div>
+    <div class="sheet-input"><input type="number" class="sheet-biginput" name="attr_Willpower" value=10></div>
+    <div class="sheet-section-header">Skills</div>
+    <div class="sheet-explain-text">Skilled Rolls: 3+ to succeed, Unskilled Rolls: 6 to succeed<br /> Starting Willpower 7 if 3 skills taken</div>
+    <div class="sheet-input"><div class="sheet-label">Name: </div><input type="text" class="sheet-biginput" name="attr_Skills_1"></div>
+    <div class="sheet-input"><div class="sheet-label">Name: </div><input type="text" class="sheet-biginput" name="attr_Skills_2"></div>
+    <div class="sheet-input"><div class="sheet-label">Name: </div><input type="text" class="sheet-biginput" name="attr_Skills_3"></div>
+    <div class="sheet-spacer"> </div>
+    <div class="sheet-section-header">Phobia</div>
+    <div class="sheet-explain-text">-1 penalty for any task involving a Phobia, +1 Willpower for having a Phobia</div>
+    <div class="sheet-input"><div class="sheet-label">Name: </div><input type="text" class="sheet-biginput" name="attr_Phobia_1"></div>
+    <div class="sheet-spacer"> </div>
+    <div class="sheet-section-header">Obsession</div>
+    <div class="sheet-explain-text">Try to accomplish this is often as possible</div>
+    <div class="sheet-input"><div class="sheet-label">Name: </div><input type="text" class="sheet-biginput" name="attr_Obsession"></div>
+    <div class="sheet-input"><div class="sheet-label">Rank: </div><input type="text" class="sheet-smallinput" name="attr_Rank"></div>
+    <div class="sheet-input"><div class="sheet-label"># of Times: </div><input type="text" class="sheet-biginput" name="attr_Accomplished"></div>
+</div>
+<div class="sheet-half">
+    John is completely and utterly batshit insane. You are one of the Voices in his head. You have one task you are secretly obsessed with. 
+    Your goal is to get John to do that thing as many times as possible (whether you're in control or not). 
+    Obsessions are ranked by difficulty: 1 (e.g. steal a candy bar), 2 (e.g. steal a car), or 3 (e.g. steal the Eiffel Tower)
+    <br />
+    <br />
+    John is barely-functional at times, and a fucking wizard at times. When he does something that an ordinary person would have any chance of failing, 
+    he rolls a die (d6). If he rolls a 6, he succeeds. Otherwise, he fails miserably. If the current Voice has a relevant skill, though, 
+    John succeeds on a roll of 3 or more. The current Voice may also spend willpower before they roll to boost their roll by that many points.
+    <br />
+    <br />
+    Any time John gets hurt, wakes up, fails a roll, or completes the active voice's obsession, a struggle for control takes place. 
+    Any voice that wants to take control secretly chooses how much willpower they want to bid, then all reveal their bids. 
+    Highest bid gets control and pays that much willpower. Ties end in a roll-off.
+    <br />
+    <br />
+    John is easily bored. If nothing exciting happens for 10 minutes, the GM rolls a die. 4+ and John falls asleep. 
+    When this happens, every Voice gains 1 willpower and a bid for control happens when he wakes up.
+    <br />
+    <br />
+    The game ends when John dies, or everyone is out of willpower. Each voice multiplies the number of times they copmleted their obsession by its rank to 
+    get their final score. Highest wins.
+</div>
+</div>
